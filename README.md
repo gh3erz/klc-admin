@@ -20,7 +20,7 @@ KLC Admin adalah sebuah aplikasi yang memungkinkan administrator untuk mengelola
 2. Buka terminal dan arahkan ke direktori proyek.
 3. Jalankan perintah `npm install` untuk menginstal semua dependensi.
 4. Ubah file konfigurasi sesuai kebutuhan Anda.
-5. Jalankan perintah `npm start` untuk menjalankan webpanel khusus admin di lokal Anda.
+5. Jalankan perintah `npm start` untuk menjalankan KLC Admin di lokal Anda.
 
 Pastikan untuk mengikuti petunjuk instalasi dan konfigurasi yang tepat sebelum menjalankan aplikasi ini. Pastikan juga untuk memperbarui file README.md dengan informasi yang lebih detail sesuai dengan kebutuhan.
 
