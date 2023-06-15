@@ -40,21 +40,23 @@ Untuk menambahkan Swalalert2 ke dalam proyek KLC Admin, ikuti langkah-langkah be
     title: 'Sukses',
     text: 'Data berhasil disimpan.',
     });
-   Anda juga dapat menyesuaikan pesan dengan menambahkan tombol, ikon, atau elemen lainnya. Swalalert2 menyediakan banyak opsi dan metode yang dapat Anda gunakan untuk mengubah tampilan dan perilaku kotak dialog.
 
-  ```javascript
-  Swal.fire({
-    icon: 'warning',
-    title: 'Konfirmasi',
-    text: 'Apakah Anda yakin ingin menghapus data ini?',
-    showCancelButton: true,
-    confirmButtonText: 'Ya',
-    cancelButtonText: 'Batal',
-  }).then((result) => {
-    if (result.isConfirmed) {
-      // Tindakan yang akan dijalankan jika pengguna menekan tombol 'Ya'
-    }
-  });
+    
+4.   Anda juga dapat menyesuaikan pesan dengan menambahkan tombol, ikon, atau elemen lainnya. Swalalert2 menyediakan banyak opsi dan metode yang dapat Anda       gunakan untuk mengubah tampilan dan perilaku kotak dialog.
+
+     ```javascript
+     Swal.fire({
+       icon: 'warning',
+       title: 'Konfirmasi',
+       text: 'Apakah Anda yakin ingin menghapus data ini?',
+       showCancelButton: true,
+       confirmButtonText: 'Ya',
+       cancelButtonText: 'Batal',
+     }).then((result) => {
+       if (result.isConfirmed) {
+         // Tindakan yang akan dijalankan jika pengguna menekan tombol 'Ya'
+       }
+     });
 
 Pastikan untuk mengikuti petunjuk instalasi dan konfigurasi yang tepat sebelum menjalankan aplikasi ini. Pastikan juga untuk memperbarui file README.md dengan informasi yang lebih detail sesuai dengan kebutuhan.
 
