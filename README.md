@@ -22,8 +22,40 @@ KLC Admin adalah sebuah aplikasi yang memungkinkan administrator untuk mengelola
 4. Ubah file konfigurasi sesuai kebutuhan Anda.
 5. Jalankan perintah `npm start` untuk menjalankan KLC Admin di lokal Anda.
 
+## Penambahan Swalalert2
+
+Untuk menambahkan Swalalert2 ke dalam proyek KLC Admin, ikuti langkah-langkah berikut:
+
+1. Instal Swalalert2: Jalankan perintah `npm install sweetalert2` dalam terminal proyek untuk menginstal library Swalalert2.
+2. Impor library: Di file JavaScript yang ingin Anda gunakan Swalalert2, impor library dengan menambahkan baris berikut di bagian atas file:
+
+   ```javascript
+   import Swal from 'sweetalert2';
+   
+3. Gunakan Swalalert2: Anda dapat menggunakan Swalalert2 untuk menampilkan kotak dialog yang menarik dan interaktif. Berikut adalah contoh penggunaan Swalalert2:
+
+   ```javascript
+    Swal.fire({
+    icon: 'success',
+    title: 'Sukses',
+    text: 'Data berhasil disimpan.',
+    });
+   Anda juga dapat menyesuaikan pesan dengan menambahkan tombol, ikon, atau elemen lainnya. Swalalert2 menyediakan banyak opsi dan metode yang dapat Anda gunakan untuk mengubah tampilan dan perilaku kotak dialog.
+
+  ```javascript
+  Swal.fire({
+    icon: 'warning',
+    title: 'Konfirmasi',
+    text: 'Apakah Anda yakin ingin menghapus data ini?',
+    showCancelButton: true,
+    confirmButtonText: 'Ya',
+    cancelButtonText: 'Batal',
+  }).then((result) => {
+    if (result.isConfirmed) {
+      // Tindakan yang akan dijalankan jika pengguna menekan tombol 'Ya'
+    }
+  });
+
 Pastikan untuk mengikuti petunjuk instalasi dan konfigurasi yang tepat sebelum menjalankan aplikasi ini. Pastikan juga untuk memperbarui file README.md dengan informasi yang lebih detail sesuai dengan kebutuhan.
 
-...
-...
-...
+
