@@ -60,4 +60,35 @@ Untuk menambahkan Swalalert2 ke dalam proyek KLC Admin, ikuti langkah-langkah be
 
 Pastikan untuk mengikuti petunjuk instalasi dan konfigurasi yang tepat sebelum menjalankan aplikasi ini. Pastikan juga untuk memperbarui file README.md dengan informasi yang lebih detail sesuai dengan kebutuhan.
 
+# Struktur Folder KLC-Admin
+
+Berikut adalah tangkapan layar struktur folder program KLC-Admin:
+
+| Gambar 1                      | Gambar 2                      |
+|------------------------------|------------------------------|
+| ![Struktur Folder](struktur.png) | ![Tangkapan Layar](struktur2.png) |
+
+
+
+### Langkah-langkah:
+
+1. Buka direktori proyek KLC Admin.
+2. Buka folder `src`.
+3. Di dalam folder `src`, terdapat folder `@fuse` `@lodash` `app` dan `components `.
+4. Folder `@fuse` dalam Fuse Material FuseTheme adalah direktori yang berisi kode inti dan konfigurasi yang dikembangkan oleh tim Fuse. Ini berfungsi sebagai kerangka kerja yang menyediakan fitur dan fungsionalitas yang umum digunakan dalam pengembangan aplikasi web.
+5. Folder `@lodash` dalam Fuse Material FuseTheme merupakan folder yang berisi modul-modul Lodash yang digunakan dalam proyek tersebut. Lodash adalah sebuah utilitas JavaScript yang populer dan serbaguna, yang menyediakan berbagai fungsi dan metode yang dapat membantu dalam manipulasi dan pengolahan data.
+6. Folder `app` berisi komponen-komponen dan layanan yang digunakan dalam aplikasi.
+   - Di dalam folder `components`, terdapat folder `Common` yang berisi komponen-komponen umum yang digunakan di seluruh aplikasi, seperti layout dan navbar.
+   - Di dalam folder `components`, terdapat folder `Pages` yang berisi komponen-komponen halaman aplikasi, seperti halaman otentikasi (login, register) dan halaman dashboard.
+   - File `App.js` adalah file utama yang merangkum komponen-komponen aplikasi.
+   - Di dalam folder `services`, terdapat file `authService.js` yang berisi layanan untuk otentikasi.
+7. Folder `assets` berisi aset-aset yang digunakan dalam aplikasi, seperti gambar dan gaya.
+   - Di dalam folder `images`, terdapat gambar-gambar yang digunakan dalam aplikasi.
+   - Di dalam folder `styles`, terdapat file `app.css` yang berisi gaya-gaya CSS tambahan yang diterapkan pada aplikasi.
+8. File `index.js` digunakan untuk menyatukan dan merender aplikasi ke dalam DOM.
+9. File `themeConfig.js` berisi konfigurasi tema dan pengaturan aplikasi.
+
+Dengan struktur folder yang terorganisir seperti di atas, komponen, layanan, dan aset dapat dengan mudah diidentifikasi dan dikelola.
+
+
 
