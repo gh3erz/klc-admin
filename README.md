@@ -78,7 +78,7 @@ Berikut adalah tangkapan layar struktur folder program KLC-Admin:
 4. Folder `@fuse` dalam Fuse Material FuseTheme adalah direktori yang berisi kode inti dan konfigurasi yang dikembangkan oleh tim Fuse. Ini berfungsi sebagai kerangka kerja yang menyediakan fitur dan fungsionalitas yang umum digunakan dalam pengembangan aplikasi web.
 5. Folder `@lodash` dalam Fuse Material FuseTheme merupakan folder yang berisi modul-modul Lodash yang digunakan dalam proyek tersebut. Lodash adalah sebuah utilitas JavaScript yang populer dan serbaguna, yang menyediakan berbagai fungsi dan metode yang dapat membantu dalam manipulasi dan pengolahan data.
 6. Folder `app` berisi komponen-komponen dan layanan yang digunakan dalam aplikasi.
-   - Di dalam folder `components`, terdapat folder `Common` yang berisi komponen-komponen umum yang digunakan di seluruh aplikasi, seperti layout dan navbar.
+   - Di dalam folder `components`, terdapat folder `main` yang berisi komponen-komponen utama aplikasi.
    - Di dalam folder `components`, terdapat folder `Pages` yang berisi komponen-komponen halaman aplikasi, seperti halaman otentikasi (login, register) dan halaman dashboard.
    - File `App.js` adalah file utama yang merangkum komponen-komponen aplikasi.
    - Di dalam folder `services`, terdapat file `authService.js` yang berisi layanan untuk otentikasi.
